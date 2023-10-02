@@ -11,7 +11,7 @@ require('./db/connection');
 const User=require('./model/userSchema');
 
 app.use(require('./router/auth'));
-const PORT=process.env.PORT||3000;
+const PORT=process.env.PORT;
 
 
 // const middleware=(req,res,next)=>{
